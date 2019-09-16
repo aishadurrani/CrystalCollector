@@ -1,0 +1,171 @@
+
+
+
+body {
+	/*background-image: url('../images/pink.jpg');
+	background position: center;
+*/
+
+
+
+	
+	background:
+			radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
+			radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 8%, hsla(0, 100%, 20%, 0) 10%) 50px 50px,
+			radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
+			radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
+			radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
+			radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
+			radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
+			radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
+			linear-gradient(45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0,
+			linear-gradient(-45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0;
+			/*background-color: #DB7093; */
+			background-size: 100px 100px;
+			background-color: #FF69B4;
+
+
+
+
+
+}
+
+.page-header {
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 75px;
+	color: white;
+	font-family: fantasy;
+}
+
+
+.container {
+    	font-size: 25px;
+    	font-family: fantasy;
+    }
+
+footer {
+	font-weight: bold;
+	margin-top: 60px;
+	color: white;
+	padding-bottom: 10px;
+	position: fixed;
+   	left: 0;
+   	bottom: 0;
+   	height: 40px;
+   	width: 100%;
+   	text-align: center;
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+
+	body {
+
+
+
+
+		background:
+			radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
+			radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 8%, hsla(0, 100%, 20%, 0) 10%) 50px 50px,
+			radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
+			radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
+			radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
+			radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
+			radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
+			radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
+			linear-gradient(45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0,
+			linear-gradient(-45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0;
+			/*background-color: #DB7093; */
+			background-size: 100px 100px;
+			background-color: #FF69B4;
+
+
+}
+		
+	
+
+	.page-header {
+		text-align: center;
+		font-weight: bold;
+		font-size: 100px;
+}
+
+	h1 {
+		font-weight: bold;
+		font-size: 100px;
+		color: white;
+		font-family: fantasy;
+}
+
+    .container {
+    	font-size: 35px;
+    	font-family: fantasy;
+    }
+
+
+
+	#red {
+		height: 173px;
+		width: 173px;
+	}
+
+	#blue {
+		height: 173px;
+		width: 173px;
+	}
+
+	#yellow {
+		height: 173px;
+		width: 173px;
+	}
+
+	#green {
+		height: 173px;
+		width: 173px;
+	}
+
+	.center {
+		height: 158px;
+		width: 158px;
+	}
+
+
+
+	footer {
+		font-weight: bold;
+		margin-top: 60px;
+		color: white;
+		padding-bottom: 10px;
+		position: fixed;
+   		left: 0;
+   		bottom: 0;
+   		height: 40px;
+   		width: 100%;
+   		text-align: center;
+
+	
+   	}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
